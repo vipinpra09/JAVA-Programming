@@ -17,5 +17,7 @@ public class simcalc{
         System.out.println("multiplication is:"+mul);
         System.out.println("Remainder is:"+rem);
         System.out.println("Division is:"+div);
+        s1.close();
+        s2.close();
     }
 }

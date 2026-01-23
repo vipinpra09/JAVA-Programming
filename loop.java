@@ -1,5 +1,5 @@
 // Syntax of loop of java is same as C
-import java.util.Scanner;
+//import java.util.Scanner;
 public class loop{
     public static void main(String []args){
         //Scanner s1 = new Scanner(System.in);
