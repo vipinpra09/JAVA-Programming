@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------------------------
+| Method Name        | Syntax                                              | Use                           |
+-------------------------------------------------------------------------------------------------
+| toString           | Arrays.toString(arr)                                 | Print 1D array                |
+| deepToString       | Arrays.deepToString(arr)                             | Print multi-dimensional array |
+| sort               | Arrays.sort(arr)                                     | Sort array (ascending)        |
+| sort (range)       | Arrays.sort(arr, from, to)                           | Sort part of array            |
+| parallelSort       | Arrays.parallelSort(arr)                             | Faster sorting (threads)      |
+| binarySearch       | Arrays.binarySearch(arr, key)                        | Search in sorted array        |
+| binarySearch(range)| Arrays.binarySearch(arr, from, to, key)              | Search in range               |
+| equals             | Arrays.equals(arr1, arr2)                            | Compare 1D arrays             |
+| deepEquals         | Arrays.deepEquals(arr1, arr2)                        | Compare 2D arrays             |
+| fill               | Arrays.fill(arr, value)                              | Fill array with value         |
+| fill (range)       | Arrays.fill(arr, from, to, value)                    | Fill part of array            |
+| copyOf             | Arrays.copyOf(arr, newLength)                        | Copy entire array             |
+| copyOfRange        | Arrays.copyOfRange(arr, from, to)                    | Copy array range              |
+| asList             | Arrays.asList(arr)                                   | Array → fixed List            |
+| setAll             | Arrays.setAll(arr, i -> value)                       | Set using function            |
+| parallelSetAll     | Arrays.parallelSetAll(arr, i -> value)               | Parallel setAll               |
+| stream             | Arrays.stream(arr)                                   | Array → Stream                |
+| stream (range)     | Arrays.stream(arr, start, end)                       | Stream from range             |
+| hashCode           | Arrays.hashCode(arr)                                 | Hash code of 1D array         |
+| deepHashCode       | Arrays.deepHashCode(arr)                             | Hash code of 2D array         |
+| mismatch           | Arrays.mismatch(arr1, arr2)                          | First mismatch index          |
+| spliterator        | Arrays.spliterator(arr)                              | Traverse (Streams)            |
+-------------------------------------------------------------------------------------------------
