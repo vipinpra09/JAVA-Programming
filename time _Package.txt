@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------------------------
+| Method Name             | Syntax                                         | Use/Purpose                         |
+-------------------------------------------------------------------------------------------------
+| now                     | LocalDate.now()                                | Current date                         |
+| of                      | LocalDate.of(year, month, day)                | Create specific date                 |
+| parse                   | LocalDate.parse("yyyy-MM-dd")                  | Convert String → LocalDate           |
+| getYear                 | date.getYear()                                 | Get year                             |
+| getMonth                | date.getMonth()                                | Get Month (enum)                     |
+| getMonthValue           | date.getMonthValue()                           | Get month as int (1-12)             |
+| getDayOfMonth           | date.getDayOfMonth()                           | Get day of month                      |
+| getDayOfWeek            | date.getDayOfWeek()                            | Get day of week (enum)               |
+| getDayOfYear            | date.getDayOfYear()                            | Get day of year (1-365/366)         |
+| isLeapYear              | date.isLeapYear()                              | Check if leap year                   |
+| plusDays                | date.plusDays(n)                               | Add days                             |
+| plusWeeks               | date.plusWeeks(n)                              | Add weeks                            |
+| plusMonths              | date.plusMonths(n)                             | Add months                            |
+| plusYears               | date.plusYears(n)                              | Add years                             |
+| minusDays               | date.minusDays(n)                              | Subtract days                         |
+| minusWeeks              | date.minusWeeks(n)                             | Subtract weeks                        |
+| minusMonths             | date.minusMonths(n)                            | Subtract months                       |
+| minusYears              | date.minusYears(n)                             | Subtract years                        |
+| withDayOfMonth          | date.withDayOfMonth(n)                         | Set day of month                       |
+| withMonth               | date.withMonth(n)                              | Set month                             |
+| withYear                | date.withYear(n)                               | Set year                              |
+| isBefore                | date1.isBefore(date2)                          | Compare if date1 < date2             |
+| isAfter                 | date1.isAfter(date2)                           | Compare if date1 > date2             |
+| isEqual                 | date1.isEqual(date2)                           | Compare if dates are equal           |
+| until                   | date1.until(date2)                             | Difference as Period                  |
+| format                  | date.format(DateTimeFormatter)                 | Format date to String                 |
+| toString                | date.toString()                                | Default String representation         |
+-------------------------------------------------------------------------------------------------

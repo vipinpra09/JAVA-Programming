@@ -15,7 +15,7 @@ class ArraysPackage{
         
         // String sorting
         String []str = {"Allice","david","sofie","Venomous"};
-                Arrays.sort(str);
+                System.out.println(Arrays.toString(str));
                 
          // binary search
         int[] arr2 = {10, 20, 30, 40};

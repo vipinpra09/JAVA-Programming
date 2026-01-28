@@ -1,0 +1,19 @@
+| **Category** | **Method**                | **Description**      |
+| ------------ | ------------------------- | -------------------- |
+| ➕ Add        | `add(E e)`                | Adds element at end  |
+| ➕ Add        | `add(int index, E e)`     | Inserts at index     |
+| ❌ Remove     | `remove(int index)`       | Removes by index     |
+| ❌ Remove     | `remove(Object o)`        | Removes by object    |
+| ✏️ Update    | `set(int index, E e)`     | Replaces element     |
+| 👀 Access    | `get(int index)`          | Returns element      |
+| 📏 Size      | `size()`                  | Number of elements   |
+| 🔍 Search    | `contains(Object o)`      | Checks existence     |
+| 🔍 Search    | `indexOf(Object o)`       | First index          |
+| 🔍 Search    | `lastIndexOf(Object o)`   | Last index           |
+| 🧹 Clear     | `clear()`                 | Removes all elements |
+| 📋 Copy      | `clone()`                 | Shallow copy         |
+| 🔄 Convert   | `toArray()`               | Converts to array    |
+| 🔁 Iterate   | `iterator()`              | Returns iterator     |
+| 🧪 Check     | `isEmpty()`               | Checks if empty      |
+| 📦 Capacity  | `ensureCapacity(int min)` | Increases capacity   |
+| ✂️ Trim      | `trimToSize()`            | Shrinks capacity     |
