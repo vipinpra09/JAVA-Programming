@@ -1,0 +1,19 @@
+| Method                              | Return Type      | Description                   |
+| ----------------------------------- | ---------------- | ----------------------------- |
+| `add(E e)`                          | `boolean`        | Adds element if not duplicate |
+| `addAll(Collection<? extends E> c)` | `boolean`        | Adds all elements             |
+| `remove(Object o)`                  | `boolean`        | Removes element               |
+| `removeAll(Collection<?> c)`        | `boolean`        | Removes matching elements     |
+| `retainAll(Collection<?> c)`        | `boolean`        | Keeps only matching elements  |
+| `contains(Object o)`                | `boolean`        | Checks if present             |
+| `containsAll(Collection<?> c)`      | `boolean`        | Checks all present            |
+| `size()`                            | `int`            | Number of elements            |
+| `isEmpty()`                         | `boolean`        | Empty check                   |
+| `clear()`                           | `void`           | Removes all                   |
+| `iterator()`                        | `Iterator<E>`    | Iterate elements              |
+| `toArray()`                         | `Object[]`       | Convert to array              |
+| `toArray(T[] a)`                    | `T[]`            | Convert to typed array        |
+| `forEach(Consumer<? super E>)`      | `void`           | Loop action                   |
+| `stream()`                          | `Stream<E>`      | Stream API                    |
+| `parallelStream()`                  | `Stream<E>`      | Parallel stream               |
+| `spliterator()`                     | `Spliterator<E>` | Advanced iteration            |

@@ -1,0 +1,25 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+
+public class write
+{
+	public static void main(String[] args) throws IOException {
+
+FileWriter writer = new FileWriter("Data.txt");
+
+     int i = 1;
+      while(i < 101){
+          writer.write(i+" ");
+          i++;
+      }
+      	File file = new File("Data1.txt");
+      	Scanner sc = new Scanner(file);
+      while(sc.hasNextLine()){
+          System.out.println(sc.nextLine());
+      }
+      writer.close();
+	}
+}

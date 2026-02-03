@@ -1,0 +1,30 @@
+| Method       | Return Type | Description                                              | Notes                                 |
+| ------------ | ----------- | -------------------------------------------------------- | ------------------------------------- |
+| `add(E e)`   | `boolean`   | Inserts element; throws exception if full                | Part of Collection                    |
+| `offer(E e)` | `boolean`   | Inserts element; returns false if full                   | Preferred over add for bounded queues |
+| `remove()`   | `E`         | Removes and returns head; throws exception if empty      | ✅                                     |
+| `poll()`     | `E`         | Removes and returns head; returns null if empty          | ✅                                     |
+| `element()`  | `E`         | Returns head without removing; throws exception if empty | ✅                                     |
+| `peek()`     | `E`         | Returns head without removing; returns null if empty     | ✅                                     |
+
+
+// Add from Collection package
+
+| Method                                | Return Type      | Description                         |
+| ------------------------------------- | ---------------- | ----------------------------------- |
+| `size()`                              | `int`            | Number of elements                  |
+| `isEmpty()`                           | `boolean`        | Checks if empty                     |
+| `contains(Object o)`                  | `boolean`        | Checks presence                     |
+| `iterator()`                          | `Iterator<E>`    | Iterates elements                   |
+| `toArray()`                           | `Object[]`       | Converts to array                   |
+| `toArray(T[] a)`                      | `T[]`            | Converts to array of type T         |
+| `remove(Object o)`                    | `boolean`        | Removes first occurrence            |
+| `containsAll(Collection<?> c)`        | `boolean`        | Checks if all exist                 |
+| `addAll(Collection<? extends E> c)`   | `boolean`        | Adds all elements                   |
+| `removeAll(Collection<?> c)`          | `boolean`        | Removes all in collection           |
+| `retainAll(Collection<?> c)`          | `boolean`        | Retains only elements in collection |
+| `clear()`                             | `void`           | Removes all elements                |
+| `forEach(Consumer<? super E> action)` | `void`           | Iterates with action                |
+| `spliterator()`                       | `Spliterator<E>` | Returns spliterator                 |
+| `stream()`                            | `Stream<E>`      | Functional stream                   |
+| `parallelStream()`                    | `Stream<E>`      | Parallel functional stream          |

@@ -1,0 +1,35 @@
+| Method                                | Return Type       | Description                                        | Common Stack Use? |
+| ------------------------------------- | ----------------- | -------------------------------------------------- | ----------------- |
+| `push(E item)`                        | `E`               | Pushes an element onto the top of the stack        | ✅                 |
+| `pop()`                               | `E`               | Removes and returns the top element                | ✅                 |
+| `peek()`                              | `E`               | Returns the top element without removing           | ✅                 |
+| `empty()`                             | `boolean`         | Checks if the stack is empty                       | ✅                 |
+| `search(Object o)`                    | `int`             | Returns 1-based position from top; -1 if not found | ✅                 |
+| `size()`                              | `int`             | Returns number of elements                         | ⚪                 |
+| `isEmpty()`                           | `boolean`         | Checks if empty (inherited from Vector/Collection) | ⚪                 |
+| `contains(Object o)`                  | `boolean`         | Checks if element exists                           | ⚪                 |
+| `elementAt(int index)`                | `E`               | Returns element at index                           | ⚪                 |
+| `firstElement()`                      | `E`               | Returns first element                              | ⚪                 |
+| `lastElement()`                       | `E`               | Returns last element                               | ⚪                 |
+| `add(E e)`                            | `boolean`         | Adds element at end                                | ⚪                 |
+| `add(int index, E element)`           | `void`            | Inserts element at index                           | ⚪                 |
+| `remove(int index)`                   | `E`               | Removes element at index                           | ⚪                 |
+| `remove(Object o)`                    | `boolean`         | Removes first occurrence                           | ⚪                 |
+| `removeAll()`                         | `void`            | Removes all elements                               | ⚪                 |
+| `clear()`                             | `void`            | Clears the stack                                   | ⚪                 |
+| `get(int index)`                      | `E`               | Returns element at index                           | ⚪                 |
+| `set(int index, E element)`           | `E`               | Replaces element at index                          | ⚪                 |
+| `clone()`                             | `Object`          | Shallow copy                                       | ⚪                 |
+| `toArray()`                           | `Object[]`        | Converts stack to array                            | ⚪                 |
+| `toArray(T[] a)`                      | `T[]`             | Converts stack to array of type T                  | ⚪                 |
+| `iterator()`                          | `Iterator<E>`     | Returns iterator                                   | ⚪                 |
+| `listIterator()`                      | `ListIterator<E>` | Returns list iterator                              | ⚪                 |
+| `subList(int fromIndex, int toIndex)` | `List<E>`         | Returns view of range                              | ⚪                 |
+| `containsAll(Collection<?> c)`        | `boolean`         | Checks if contains all elements                    | ⚪                 |
+| `addAll(Collection<? extends E> c)`   | `boolean`         | Adds all elements                                  | ⚪                 |
+| `removeAll(Collection<?> c)`          | `boolean`         | Removes all given elements                         | ⚪                 |
+| `retainAll(Collection<?> c)`          | `boolean`         | Retains only elements in c                         | ⚪                 |
+| `forEach(Consumer<? super E> action)` | `void`            | Performs action for each element                   | ⚪                 |
+| `sort(Comparator<? super E> c)`       | `void`            | Sorts elements                                     | ⚪                 |
+| `stream()`                            | `Stream<E>`       | Returns stream for functional ops                  | ⚪                 |
+| `parallelStream()`                    | `Stream<E>`       | Returns parallel stream                            | ⚪                 |
