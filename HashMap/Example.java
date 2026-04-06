@@ -66,3 +66,20 @@ public class HashMapExample {
         System.out.println("Frequency Map: " + freqMap);
     }
 }
+// output
+/*Initial Map: {1=10, 2=20, 3=30}
+After Update: {1=10, 2=50, 3=30}
+Value at key 2: 50
+Value at key 4 (default): 0
+Key 3 exists
+After removing key 1: {2=50, 3=30}
+Keys:
+2
+3
+Values:
+50
+30
+Key-Value pairs:
+2 -> 50
+3 -> 30
+Frequency Map: {a=2, b=2, c=1} */
